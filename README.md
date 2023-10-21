@@ -1,4 +1,4 @@
-# Pytorch_Transformer_for_Machine_Translation
+# Pytorch_Transformer_for_Langauge_Modeling
 ## Introduction
 This is a PyTorch implementation of a Transformer-based deep learning model for langauge modeling. The model is learning to understand and imitate writing shakespeare notes. The transformer model is inspired by the well-known Attention is All you need [https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html]. However, two changes has been added to this architecture from the original one. The first modification is adding the norm layer before the attention model and before the position-wise neural network. the second modification is addeding a dropout layer after the output of the encoder block.
 
